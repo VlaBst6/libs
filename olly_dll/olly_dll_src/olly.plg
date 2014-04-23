@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: olly - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\Temp\RSP37A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "olly_EXPORTS" /Fp"Release/olly.pch" /YX /Fo"Release/" /Fd"Release/" /J /FD /c 
+"D:\VCpp\disasm_dll\asmserv.c"
+"D:\VCpp\disasm_dll\assembl.c"
+"D:\VCpp\disasm_dll\disasm.c"
+]
+Creating command line "cl.exe @c:\Temp\RSP37A.tmp" 
+Creating temporary file "c:\Temp\RSP37B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/olly.pdb" /machine:I386 /def:".\olly.def" /out:"olly.dll" /implib:"Release/olly.lib" 
+.\Release\asmserv.obj
+.\Release\assembl.obj
+.\Release\disasm.obj
+]
+Creating command line "link.exe @c:\Temp\RSP37B.tmp"
+<h3>Output Window</h3>
+Compiling...
+asmserv.c
+assembl.c
+disasm.c
+Linking...
+   Creating library Release/olly.lib and object Release/olly.exp
+
+
+
+<h3>Results</h3>
+olly.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

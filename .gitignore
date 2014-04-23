@@ -1,0 +1,9 @@
+*.exp
+*.lib
+*.exp
+*.obj
+*.ncb
+vbDevKit/
+Subclass*/
+
+

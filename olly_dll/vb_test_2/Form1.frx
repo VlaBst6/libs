@@ -1,0 +1,12 @@
+‹mov ecx, 10
+mov eax, 4012bb
+top:
+mov edx, [eax]
+inc edx
+mov [eax], edx
+inc eax
+dec ecx
+jnz top
+call $+5
+pop eax
+call MyTestAPI

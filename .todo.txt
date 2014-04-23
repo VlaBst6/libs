@@ -1,0 +1,1 @@
+GetParentFOlder bugs out of folder path has a trailing \
